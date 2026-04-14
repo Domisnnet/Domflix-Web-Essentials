@@ -1,41 +1,31 @@
+import { getProfiles } from './data.js';
+
 document.addEventListener('DOMContentLoaded', () => {
-  const perfilLinks = document.querySelectorAll('.perfil');
+    const perfisContainer = document.getElementById('perfis-container');
 
-  perfilLinks.forEach((link) => {
-    link.addEventListener('click', (event) => {
-      // Encontrar o elemento de nome e a imagem dentro do perfil clicado
-      const item = link.closest('.item-perfil');
-      if (!item) return;
+    if (perfisContainer) {
+        const perfis = getProfiles();
 
-      const nomeEl = item.querySelector('.nome-perfil');
-      const imgEl = item.querySelector('img');
+        perfis.forEach(perfil => {
+            const linkPerfil = document.createElement('a');
+            linkPerfil.href = './catalogo.html';
+            linkPerfil.classList.add('perfil');
+            linkPerfil.addEventListener('click', () => {
+                localStorage.setItem('perfilAtivoNome', perfil.name);
+                localStorage.setItem('perfilAtivoImagem', perfil.avatar);
+            });
 
-      const nome = nomeEl ? nomeEl.textContent.trim() : '';
-      let imgSrc = imgEl ? imgEl.getAttribute('src') : '';
+            const imagemPerfil = document.createElement('img');
+            imagemPerfil.src = perfil.avatar;
+            imagemPerfil.alt = `Avatar de ${perfil.name}`;
 
-      // Ajusta caminho relativo para que funcione a partir de catalogo/catalogo.html
-      // Se for um caminho relativo como "assets/1.webp", prefixa "../" para apontar ao root
-      if (
-        imgSrc &&
-        !imgSrc.startsWith('http') &&
-        !imgSrc.startsWith('/') &&
-        !imgSrc.startsWith('..')
-      ) {
-        imgSrc = '../' + imgSrc;
-      }
+            const nomePerfil = document.createElement('span');
+            nomePerfil.classList.add('nome-perfil');
+            nomePerfil.textContent = perfil.name;
 
-      try {
-        localStorage.setItem('perfilAtivoNome', nome);
-        localStorage.setItem('perfilAtivoImagem', imgSrc);
-      } catch (e) {
-        // Silenciar erros de localStorage (ex: modo privado)
-        console.warn(
-          'Não foi possível salvar o perfil ativo no localStorage',
-          e,
-        );
-      }
-
-      // Deixar o link navegar normalmente para catalogo.html
-    });
-  });
+            linkPerfil.appendChild(imagemPerfil);
+            linkPerfil.appendChild(nomePerfil);
+            perfisContainer.appendChild(linkPerfil);
+        });
+    }
 });
