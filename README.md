@@ -1,7 +1,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/Domisnnet/Domflix-Web-Essentials?style=flat&label=REPO%20SIZE&labelColor=2d333b&color=0969da)
 ![Stars](https://img.shields.io/github/stars/Domisnnet/Domflix-Web-Essentials?style=flat&label=STARS&labelColor=2d333b&color=0969da)
 ![Last Commit](https://img.shields.io/github/last-commit/Domisnnet/Domflix-Web-Essentials?style=flat&label=LAST%20COMMIT&labelColor=2d333b&color=2ea44f)
-![Version](https://img.shields.io/github/package-json/v/Domisnnet/Domflix-Web-Essentials?style=flat&label=VERSION&labelColor=2d333b&color=0969da&logo=n8n&logoColor=white)
+![Version](https://img.shields.io/github/package-json/v/Domisnnet/Domflix-Web-Essentials?style=flat&label=VERSION&labelColor=2d333b&color=0969da&logo=html&logoColor=white)
 
 <h2 id="sobre-o-projeto">1. Domflix - Streaming para Devs 💻💻</h2>
 
