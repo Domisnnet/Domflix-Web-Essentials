@@ -1,10 +1,11 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/domisnnet/Domflix-Web-Essentials?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/domisnnet/Domflix-Web-Essentials?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/domisnnet/Domflix-Web-Essentials?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/Domisnnet/Domflix-Web-Essentials?style=flat&label=REPO%20SIZE&labelColor=2d333b&color=0969da)
+![Stars](https://img.shields.io/github/stars/Domisnnet/Domflix-Web-Essentials?style=flat&label=STARS&labelColor=2d333b&color=0969da)
+![Last Commit](https://img.shields.io/github/last-commit/Domisnnet/Domflix-Web-Essentials?style=flat&label=LAST%20COMMIT&labelColor=2d333b&color=2ea44f)
+![Version](https://img.shields.io/github/package-json/v/Domisnnet/Domflix-Web-Essentials?style=flat&label=VERSION&labelColor=2d333b&color=0969da&logo=n8n&logoColor=white)
 
 <h2 id="sobre-o-projeto">1. Domflix - Streaming para Devs 💻💻</h2>
 
-![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
+![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen?style=flat&logo=firebase&logoColor=white)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20Bootstrap-blueviolet)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Domflix/blob/main/LICENSE)
 
