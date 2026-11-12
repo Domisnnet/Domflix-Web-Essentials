@@ -6,7 +6,10 @@
 <h2 id="sobre-o-projeto">1. Domflix - Streaming para Devs 💻💻</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen?style=flat&logo=firebase&logoColor=white)
-![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS%20%7C%20Bootstrap-7950F2?style=flat&labelColor=2d333b&logo=html5,css3,javascript,bootstrap&logoColor=E34F26,1572B6,F7DF1E,7950F2)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&labelColor=2d333b&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&labelColor=2d333b&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&labelColor=2d333b&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7950F2?style=flat&labelColor=2d333b&logo=bootstrap&logoColor=white)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Domflix/blob/main/LICENSE)
 ![Domflix](src/assets/images/Domflix.png)
 
